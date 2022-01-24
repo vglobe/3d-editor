@@ -1,0 +1,43 @@
+{
+  "name": "topology-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "vite --host 0.0.0.0 --open",
+    "prod": "vite --host local.le5le.com --open",
+    "dev": "vite --host local.le5le.dev.com --open",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@types/debounce": "^1.2.1",
+    "ant-design-vue": "^2.1.4",
+    "axios": "^0.21.1",
+    "debounce": "^1.2.1",
+    "element-plus": "^1.1.0-beta.16",
+    "file-saver": "^2.0.5",
+    "moment": "^2.29.1",
+    "monaco-editor": "^0.28.1",
+    "vue": "^3.0.5",
+    "vue-router": "4",
+    "vuex": "^4.0.0",
+    "babylonjs": "^5.0.0-alpha.65",
+    "babylonjs-gui": "^5.0.0-alpha.65",
+    "babylonjs-loaders": "^5.0.0-alpha.65",
+    "babylonjs-materials": "^5.0.0-alpha.65",
+    "mitt": "^2.1.0",
+    "mqtt": "^4.2.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "less": "^4.1.1",
+    "less-loader": "^9.0.0",
+    "path": "^0.12.7",
+    "sass": "^1.32.8",
+    "typescript": "^4.4.4",
+    "unplugin-vue-components": "^0.14.1",
+    "vite": "latest",
+    "vite-plugin-monaco-editor": "^1.0.5",
+    "vue-tsc": "^0.1.6"
+  }
+}

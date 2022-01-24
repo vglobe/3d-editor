@@ -1,0 +1,132 @@
+@import './variables.scss';
+
+.ant-select-dropdown-menu-item {
+  font-size: $font-size !important;
+}
+
+form .ant-input,
+form .ant-select {
+  width: 240px;
+  max-width: 100%;
+  height: inherit;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.ant-btn-primary {
+  text-shadow: none;
+  box-shadow: none;
+}
+
+.ant-input-affix-wrapper-focused,
+.ant-input-affix-wrapper:focus {
+  border-right-width: 1px !important;
+  outline: 0;
+}
+
+.menus .ant-dropdown-menu-item {
+  a {
+    min-width: 160px;
+
+    .t-icon {
+      font-size: $font-size;
+    }
+  }
+
+  &:hover {
+    background-color: #ffffff;
+
+    a {
+      color: $color-primary;
+    }
+  }
+}
+
+.ant-slider {
+  min-width: 160px;
+  margin: 10px 6px;
+
+  .ant-slider-rail {
+    background-color: #e1e1e1;
+  }
+}
+.ant-rate .anticon {
+  vertical-align: -1px;
+}
+
+.ant-empty-description {
+  color: $color-gray;
+}
+
+.ant-btn.error {
+  border-color: $color-error;
+  &:hover {
+    color: $color-error-hover;
+    border-color: $color-error-hover;
+  }
+}
+
+.ant-btn-sm {
+  font-size: 12px !important;
+}
+
+.ant-card-head-title .ant-input {
+  border-color: transparent;
+  width: 240px;
+
+  &:hover {
+    border-bottom-color: #d9d9d9;
+  }
+}
+
+.ant-table-wrapper.edit {
+  td .ant-input {
+    border-color: transparent;
+    background: none;
+    padding: 4px 0;
+    &:hover {
+      border-bottom-color: #d9d9d9;
+    }
+  }
+}
+
+.ant-timeline-item-last {
+  padding-bottom: 0;
+
+  & > .ant-timeline-item-content {
+    min-height: 30px;
+  }
+}
+
+.ant-row {
+  &.ant-form-item {
+    margin-bottom: 12px;
+
+    .ant-form-item-label {
+      line-height: 1.5 !important;
+      padding-top: 6px !important;
+    }
+
+    .ant-form-item-control {
+      line-height: 20px;
+    }
+  }
+}
+
+td {
+  .ant-progress-line {
+    min-width: 80px;
+  }
+}
+
+.detail.ant-progress-line {
+  width: 200px;
+}
+
+.ant-tree {
+  li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    color: $color-primary;
+  }
+}

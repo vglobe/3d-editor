@@ -1,0 +1,40 @@
+.topology3d-loading-div {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+.topology3d-loading-div .loading-div-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.topology3d-loading-div .loading-div-container .loading-icon {
+  animation-name: loading;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 100px;
+  height: 100px;
+}
+
+.topology3d-loading-div .loading-div-container .loading-icon svg {
+  fill: #faad14;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
