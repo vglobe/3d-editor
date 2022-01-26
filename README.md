@@ -1,6 +1,6 @@
-# Topology 3d Editor
+# Vglobe&Topology 3d Editor
 
-A 3d Editor for web.
+A 3d Editor for vglobe.
 
 # How to run
 
